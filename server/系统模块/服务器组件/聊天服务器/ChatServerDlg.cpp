@@ -65,6 +65,8 @@ BOOL CChatServerDlg::OnInitDialog()
 	LPCTSTR pszCmdLine=AfxGetApp()->m_lpCmdLine;
 	if (pszCmdLine[0]!=0) PostMessage(WM_PROCESS_CMD_LINE,0,(LPARAM)pszCmdLine);
 
+	OnBnClickedStartService();
+
 	return TRUE;
 }
 

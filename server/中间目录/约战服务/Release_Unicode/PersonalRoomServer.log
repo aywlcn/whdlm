@@ -1,38 +1,7 @@
-﻿生成启动时间为 2020/11/2 5:04:40。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\约战服务\PersonalRoomServer.vcxproj”在节点 5 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D PERSONAL_ROOM_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/约战服务/Release_Unicode/PersonalRoomService.pch" /Fo"../../../中间目录/约战服务/Release_Unicode/" /Fd"../../../中间目录/约战服务/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
-         Stdafx.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\约战服务\..\..\全局定义\Log.h(76): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D PERSONAL_ROOM_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../../中间目录/约战服务/Release_Unicode/" /Fd"../../../中间目录/约战服务/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\全局定义\Log.cpp"
-         Log.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\全局定义\Log.h(76): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_vsnwprintf”的声明
-     1>..\..\全局定义\Log.cpp(41): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_vsnprintf”的声明
-     1>..\..\全局定义\Log.cpp(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
-     1>..\..\全局定义\Log.cpp(92): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_vsnwprintf”的声明
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D PERSONAL_ROOM_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/约战服务/Release_Unicode/PersonalRoomService.pch" /Fo"../../../中间目录/约战服务/Release_Unicode/" /Fd"../../../中间目录/约战服务/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PersonalRoomGame.cpp PersonalRoomServer.cpp PersonalRoomServiceManager.cpp TableFrameHook.cpp
-         PersonalRoomGame.cpp
-     1>PersonalRoomGame.cpp(1159): warning C4244: “参数”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>PersonalRoomGame.cpp(1161): warning C4244: “参数”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>PersonalRoomGame.cpp(1175): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>PersonalRoomGame.cpp(1799): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>PersonalRoomGame.cpp(1800): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>PersonalRoomGame.cpp(2096): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>PersonalRoomGame.cpp(2097): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
-         PersonalRoomServer.cpp
-         PersonalRoomServiceManager.cpp
-         TableFrameHook.cpp
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/约战服务/Release_Unicode/" /nologo /fo"../../../中间目录/约战服务/Release_Unicode/PersonalRoomServer.res" PersonalRoomServer.rc 
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/PersonalRoomService.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/约战服务/Release_Unicode/PersonalRoomService.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/PersonalRoomService.lib" /MACHINE:X86 /SAFESEH /DLL "../../../中间目录/约战服务/Release_Unicode/PersonalRoomServer.res"
+﻿生成启动时间为 2021/5/28 23:23:35。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\约战服务\PersonalRoomServer.vcxproj”在节点 6 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/PersonalRoomService.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/约战服务/Release_Unicode/PersonalRoomService.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/PersonalRoomService.lib" /MACHINE:X86 /SAFESEH /DLL "../../../中间目录/约战服务/Release_Unicode/PersonalRoomServer.res"
          "../../../中间目录/约战服务/Release_Unicode/Log.obj"
          "../../../中间目录/约战服务/Release_Unicode/PersonalRoomGame.obj"
          "../../../中间目录/约战服务/Release_Unicode/PersonalRoomServer.obj"
@@ -40,7 +9,7 @@
          "../../../中间目录/约战服务/Release_Unicode/Stdafx.obj"
          "../../../中间目录/约战服务/Release_Unicode/TableFrameHook.obj"
             正在创建库 ../../链接库/Unicode/PersonalRoomService.lib 和对象 ../../链接库/Unicode/PersonalRoomService.exp
-         PersonalRoomServer.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\约战服务\../../../运行/Release/Unicode/PersonalRoomService.dll
+         PersonalRoomServer.vcxproj -> D:\whdlm\server\系统模块\服务器组件\约战服务\../../../运行/Release/Unicode/PersonalRoomService.dll
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode
          copy /y ..\..\..\运行\Release\Unicode\PersonalRoomService.dll ..\..\..\发布组件\服务器组件\Release\Unicode\PersonalRoomService.dll
@@ -48,8 +17,8 @@
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\约战服务\PersonalRoomServer.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\约战服务\PersonalRoomServer.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:07.06
+已用时间 00:00:01.04

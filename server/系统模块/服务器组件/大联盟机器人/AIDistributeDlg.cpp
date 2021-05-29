@@ -85,6 +85,8 @@ BOOL CAIDistributeDlg::OnInitDialog()
 	//抓捕异常文件
 	::SetUnhandledExceptionFilter((LPTOP_LEVEL_EXCEPTION_FILTER)ExceptionCrashHandler);  //cash代码
 
+	OnBnClickedStartService();
+
 	return TRUE;
 }
 

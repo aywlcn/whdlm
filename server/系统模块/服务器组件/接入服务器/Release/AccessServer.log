@@ -1,8 +1,8 @@
-﻿生成启动时间为 2021/5/19 15:59:50。
-     1>项目“D:\WHDLM\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”在节点 4 上(Build 个目标)。
+﻿生成启动时间为 2021/5/26 15:09:06。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”在节点 5 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, please install v140 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
-     1>已完成生成项目“D:\WHDLM\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”(Build 个目标)的操作 - 失败。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”(Build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:00.01
+已用时间 00:00:00.00

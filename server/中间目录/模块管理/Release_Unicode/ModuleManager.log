@@ -1,45 +1,6 @@
-﻿生成启动时间为 2020/11/2 5:04:33。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\模块管理\ModuleManager.vcxproj”在节点 4 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D MODULE_MANAGER_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/模块管理/Release_Unicode/ModuleManager.pch" /Fo"../../../中间目录/模块管理/Release_Unicode/" /Fd"../../../中间目录/模块管理/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS"  /D "_CRT_NON_CONFORMING_SWPRINTFS" Stdafx.cpp
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D MODULE_MANAGER_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/模块管理/Release_Unicode/ModuleManager.pch" /Fo"../../../中间目录/模块管理/Release_Unicode/" /Fd"../../../中间目录/模块管理/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS"  /D "_CRT_NON_CONFORMING_SWPRINTFS" DlgMatchWizard.cpp DlgServerItem.cpp DlgServerMatch.cpp DlgServerWizard.cpp ListControl.cpp MatchInfoManager.cpp MatchListControl.cpp ModuleDBParameter.cpp ModuleInfoManager.cpp ModuleListControl.cpp ModuleManager.cpp ServerCustomRule.cpp ServerInfoManager.cpp ServerListControl.cpp
-         DlgMatchWizard.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-     1>DlgMatchWizard.cpp(2636): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
-     1>DlgMatchWizard.cpp(2848): warning C4244: “参数”: 从“LONGLONG”转换到“UINT”，可能丢失数据
-         DlgServerItem.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         DlgServerMatch.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         DlgServerWizard.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-     1>DlgServerWizard.cpp(269): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : 参见“inet_addr”的声明
-         ListControl.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         MatchInfoManager.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         MatchListControl.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ModuleDBParameter.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ModuleInfoManager.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ModuleListControl.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ModuleManager.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ServerCustomRule.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ServerInfoManager.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         ServerListControl.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/模块管理/Release_Unicode/" /nologo /fo"../../../中间目录/模块管理/Release_Unicode/ModuleManager.res" ModuleManager.rc 
-       Link:
+﻿生成启动时间为 2021/5/28 23:23:33。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\模块管理\ModuleManager.vcxproj”在节点 4 上(Build 个目标)。
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/ModuleManager.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ModuleManager.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/模块管理/Release_Unicode/ModuleManager.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/ModuleManager.lib" /MACHINE:X86 /SAFESEH /DLL "../../../中间目录/模块管理/Release_Unicode/ModuleManager.res"
          "../../../中间目录/模块管理/Release_Unicode/DlgMatchWizard.obj"
          "../../../中间目录/模块管理/Release_Unicode/DlgServerItem.obj"
@@ -57,7 +18,7 @@
          "../../../中间目录/模块管理/Release_Unicode/ServerListControl.obj"
          "../../../中间目录/模块管理/Release_Unicode/Stdafx.obj"
             正在创建库 ../../链接库/Unicode/ModuleManager.lib 和对象 ../../链接库/Unicode/ModuleManager.exp
-         ModuleManager.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\模块管理\../../../运行/Release/Unicode/ModuleManager.dll
+         ModuleManager.vcxproj -> D:\whdlm\server\系统模块\服务器组件\模块管理\../../../运行/Release/Unicode/ModuleManager.dll
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode
          copy /y ..\..\..\运行\Release\Unicode\ModuleManager.dll ..\..\..\发布组件\服务器组件\Release\Unicode\ModuleManager.dll
@@ -65,8 +26,8 @@
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\模块管理\ModuleManager.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\模块管理\ModuleManager.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:15.11
+已用时间 00:00:01.80

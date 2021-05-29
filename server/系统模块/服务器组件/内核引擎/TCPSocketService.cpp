@@ -265,6 +265,10 @@ DWORD CTCPSocketServiceThread::PerformSendData(WORD wMainCmdID, WORD wSubCmdID)
     pHead->CommandInfo.wSubCmdID = wSubCmdID;
     pHead->CommandInfo.wMainCmdID = wMainCmdID;
 
+	CString strWebBindIndex;
+	strWebBindIndex.Format(TEXT("SendData MainCmd => %d,SubCmd => %d"), wSubCmdID, wSubCmdID);
+	g_TraceServiceManager.TraceString(strWebBindIndex, TraceLevel_Debug);
+
     // 加密数据
     WORD wSendSize = EncryptBuffer(cbDataBuffer, sizeof(TCP_Head), sizeof(cbDataBuffer));
 

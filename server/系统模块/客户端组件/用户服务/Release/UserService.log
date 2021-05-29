@@ -1,9 +1,22 @@
-﻿生成启动时间为 2021/5/19 15:59:50。
-     1>项目“D:\WHDLM\server\系统模块\客户端组件\用户服务\UserService.vcxproj”在节点 7 上(Build 个目标)。
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(355,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(369,5): error MSB8031: Building an MFC project for a non-Unicode character set is deprecated. You must change the project property to Unicode or download an additional library. See http://go.microsoft.com/fwlink/p/?LinkId=286820 for more information.
-     1>已完成生成项目“D:\WHDLM\server\系统模块\客户端组件\用户服务\UserService.vcxproj”(Build 个目标)的操作 - 失败。
+﻿生成启动时间为 2021/5/26 15:09:08。
+     1>项目“D:\whdlm\server\系统模块\客户端组件\用户服务\UserService.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\whdlm\server\系统模块\客户端组件\用户服务\Release\用户服务.dll) does not match the Linker's OutputFile property value (D:\whdlm\server\运行\Release\Ansi\UserService.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(用户服务) does not match the Linker's OutputFile property value (UserService). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         UserService.vcxproj -> D:\whdlm\server\系统模块\客户端组件\用户服务\Release\用户服务.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Release\Ansi
+         copy /y ..\..\..\运行\Release\Ansi\用户服务.dll ..\..\..\发布组件\客户端组件\Release\Ansi\用户服务.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Release\Ansi 已经存在。
+         系统找不到指定的文件。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\客户端组件\Release\Ansi
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy /y ..\..\..\运行\Release\Ansi\用户服务.dll ..\..\..\发布组件\客户端组件\Release\Ansi\用户服务.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd”已退出，代码为 1。
+     1>已完成生成项目“D:\whdlm\server\系统模块\客户端组件\用户服务\UserService.vcxproj”(Build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:00.01
+已用时间 00:00:00.30

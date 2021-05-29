@@ -17,7 +17,7 @@
     <soundable>true</soundable>
     <1oxeightId>0</1oxeightId>
     <1clubNum>1</1clubNum>
-    <1clubSort1>0_100005</1clubSort1>
+    <1clubSort1>0_100007</1clubSort1>
     <runfast_1>10</runfast_1>
     <runfast_2>5</runfast_2>
     <runfast_3>402</runfast_3>
@@ -133,4 +133,5 @@
     <option_imgBG_Index>2</option_imgBG_Index>
     <PlayerModeconfig_sangong>6</PlayerModeconfig_sangong>
     <BankerModeconfig_sangong>4</BankerModeconfig_sangong>
+    <1100007lastMode>1</1100007lastMode>
 </userDefaultRoot>

@@ -45,6 +45,7 @@ BOOL CCorrespondServerDlg::OnInitDialog()
 	//ÉèÖÃ×é¼þ
 	m_ServiceUnits.SetServiceUnitsSink(this);
 
+	OnBnClickedStartService();
 	return TRUE;
 }
 

@@ -44,6 +44,8 @@ BOOL CAccessServerDlg::OnInitDialog()
 	SetIcon(hIcon,TRUE);
 	SetIcon(hIcon,FALSE);
 
+	OnBnClickedStartService();
+
 	return TRUE;
 }
 

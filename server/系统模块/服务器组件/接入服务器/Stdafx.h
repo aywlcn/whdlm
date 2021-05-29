@@ -17,11 +17,11 @@
 #endif
 
 #ifndef _WIN32_WINDOWS
-#define _WIN32_WINDOWS 0x0410
+#define _WIN32_WINDOWS 0x0501
 #endif
 
 #ifndef _WIN32_IE
-#define _WIN32_IE 0x0400
+#define _WIN32_IE 0x0501
 #endif
 
 #define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS

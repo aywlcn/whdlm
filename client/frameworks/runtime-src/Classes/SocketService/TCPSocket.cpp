@@ -381,7 +381,7 @@ bool CTCPSocket::OnEventSocketSend(const char *buf, int len, int flags)
 
 int CTCPSocket::OnEventSocketRecv(char *buf, int len, int flags)
 {
-	printf("OnEventSocketRecv");
+	printf("OnEventSocketRecv len %d,flags %d\n",len,flags);
 	if (m_sock != INVALID_SOCKET)
 		return recv(m_sock, buf, len, flags);
 	return SOCKET_ERROR;

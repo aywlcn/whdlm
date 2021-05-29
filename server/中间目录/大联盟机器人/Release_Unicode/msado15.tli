@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.30501.0 (5c0ec4bd).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.40629.0 (b7759181).
 //
-// d:\baidunetdiskdownload\藏宝库新大联盟\server\中间目录\大联盟机器人\release_unicode\msado15.tli
+// d:\whdlm\server\中间目录\大联盟机器人\release_unicode\msado15.tli
 //
 // Wrapper implementations for Win32 type library MSADO15.DLL
-// compiler-generated file created 11/02/20 at 05:04:30 - DO NOT EDIT!
+// compiler-generated file created 05/28/21 at 22:27:58 - DO NOT EDIT!
 
 #pragma once
 

@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.30501.0 (faa033cc).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.40629.0 (2040f2db).
 //
-// d:\baidunetdiskdownload\新版大联盟\server\系统模块\客户端组件\界面控件\release\imageole.tli
+// d:\whdlm\server\系统模块\客户端组件\界面控件\release\imageole.tli
 //
 // Wrapper implementations for Win32 type library ImageOle.dll
-// compiler-generated file created 11/02/20 at 04:23:41 - DO NOT EDIT!
+// compiler-generated file created 05/26/21 at 15:08:33 - DO NOT EDIT!
 
 #pragma once
 

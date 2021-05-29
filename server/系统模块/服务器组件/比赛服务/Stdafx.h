@@ -32,7 +32,7 @@
 
 #ifndef _WIN32_WINDOWS		// 允许使用特定于 Windows 98 或更高版本的功能。
 
-#define _WIN32_WINDOWS 0x0410 // 将此更改为针对于 Windows Me 或更高版本的合适的值。
+#define _WIN32_WINDOWS 0x0501 // 将此更改为针对于 Windows Me 或更高版本的合适的值。
 
 #endif
 
@@ -40,7 +40,7 @@
 
 #ifndef _WIN32_IE			// 允许使用特定于 IE 4.0 或更高版本的功能。
 
-#define _WIN32_IE 0x0400	// 将此更改为针对于 IE 5.0 或更高版本的合适的值。
+#define _WIN32_IE 0x0501	// 将此更改为针对于 IE 5.0 或更高版本的合适的值。
 
 #endif
 

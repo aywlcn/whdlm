@@ -1,41 +1,7 @@
-﻿生成启动时间为 2020/11/2 5:04:28。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\公共组件\服务核心\ServiceCore.vcxproj”在节点 3 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/服务核心/Release_Unicode/ServiceCore.pch" /Fo"../../../中间目录/服务核心/Release_Unicode/" /Fd"../../../中间目录/服务核心/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" /D "_CRT_NON_CONFORMING_SWPRINTFS" Stdafx.cpp
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/服务核心/Release_Unicode/ServiceCore.pch" /Fo"../../../中间目录/服务核心/Release_Unicode/" /Fd"../../../中间目录/服务核心/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" /D "_CRT_NON_CONFORMING_SWPRINTFS" ServiceCore.cpp WHBase64.cpp WHCommandLine.cpp WHDataLocker.cpp WHDataQueue.cpp WHEncrypt.cpp WHIniData.cpp WHMD5CheckSum.cpp WHRegKey.cpp WHService.cpp WHSha1.cpp WHThread.cpp
-         ServiceCore.cpp
-         WHBase64.cpp
-         WHCommandLine.cpp
-         WHDataLocker.cpp
-         WHDataQueue.cpp
-         WHEncrypt.cpp
-         WHIniData.cpp
-         WHMD5CheckSum.cpp
-         WHRegKey.cpp
-         WHService.cpp
-         WHSha1.cpp
-         WHThread.cpp
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/服务核心/Release_Unicode/" /nologo /fo"../../../中间目录/服务核心/Release_Unicode/ServiceCore.res" ServiceCore.rc 
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/ServiceCore.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ServiceCore.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/服务核心/Release_Unicode/ServiceCore.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/ServiceCore.lib" /MACHINE:X86 /SAFESEH /DLL "../../../中间目录/服务核心/Release_Unicode/ServiceCore.res"
-         "../../../中间目录/服务核心/Release_Unicode/ServiceCore.obj"
-         "../../../中间目录/服务核心/Release_Unicode/Stdafx.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHBase64.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHCommandLine.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHDataLocker.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHDataQueue.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHEncrypt.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHIniData.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHMD5CheckSum.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHRegKey.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHService.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHSha1.obj"
-         "../../../中间目录/服务核心/Release_Unicode/WHThread.obj"
-            正在创建库 ../../链接库/Unicode/ServiceCore.lib 和对象 ../../链接库/Unicode/ServiceCore.exp
-         ServiceCore.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\公共组件\服务核心\../../../运行/Release/Unicode/ServiceCore.dll
+﻿生成启动时间为 2021/5/28 22:28:28。
+     1>项目“D:\whdlm\server\系统模块\公共组件\服务核心\ServiceCore.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         ServiceCore.vcxproj -> D:\whdlm\server\系统模块\公共组件\服务核心\../../../运行/Release/Unicode/ServiceCore.dll
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode
          copy /y ..\..\..\运行\Release\Unicode\ServiceCore.dll ..\..\..\发布组件\服务器组件\Release\Unicode\ServiceCore.dll
@@ -43,8 +9,8 @@
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\公共组件\服务核心\ServiceCore.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\公共组件\服务核心\ServiceCore.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:04.81
+已用时间 00:00:00.10

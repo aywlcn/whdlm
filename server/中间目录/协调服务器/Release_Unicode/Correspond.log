@@ -1,19 +1,6 @@
-﻿生成启动时间为 2020/11/2 5:04:35。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\协调服务器\Correspond.vcxproj”在节点 5 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/协调服务器/Release_Unicode/Correspond.pch" /Fo"../../../中间目录/协调服务器/Release_Unicode/" /Fd"../../../中间目录/协调服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D"_CRT_SECURE_NO_WARNINGS" Stdafx.cpp
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/协调服务器/Release_Unicode/Correspond.pch" /Fo"../../../中间目录/协调服务器/Release_Unicode/" /Fd"../../../中间目录/协调服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D"_CRT_SECURE_NO_WARNINGS" AttemperEngineSink.cpp CorrespondServer.cpp CorrespondServerDlg.cpp GlobalInfoManager.cpp InitParameter.cpp ServiceUnits.cpp
-         AttemperEngineSink.cpp
-         CorrespondServer.cpp
-         CorrespondServerDlg.cpp
-         GlobalInfoManager.cpp
-         InitParameter.cpp
-         ServiceUnits.cpp
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/协调服务器/Release_Unicode/" /nologo /fo"../../../中间目录/协调服务器/Release_Unicode/Correspond.res" Correspond.rc 
-       Link:
+﻿生成启动时间为 2021/5/28 23:23:33。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\协调服务器\Correspond.vcxproj”在节点 5 上(Build 个目标)。
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/Correspond.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/协调服务器/Release_Unicode/Correspond.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Release/Unicode/Correspond.lib" /MACHINE:X86 /SAFESEH "../../../中间目录/协调服务器/Release_Unicode/Correspond.res"
          "../../../中间目录/协调服务器/Release_Unicode/AttemperEngineSink.obj"
          "../../../中间目录/协调服务器/Release_Unicode/CorrespondServer.obj"
@@ -22,7 +9,7 @@
          "../../../中间目录/协调服务器/Release_Unicode/InitParameter.obj"
          "../../../中间目录/协调服务器/Release_Unicode/ServiceUnits.obj"
          "../../../中间目录/协调服务器/Release_Unicode/Stdafx.obj"
-         Correspond.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\协调服务器\../../../运行/Release/Unicode/Correspond.exe
+         Correspond.vcxproj -> D:\whdlm\server\系统模块\服务器组件\协调服务器\../../../运行/Release/Unicode/Correspond.exe
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode
          copy /y ..\..\..\运行\Release\Unicode\Correspond.exe ..\..\..\发布组件\服务器组件\Release\Unicode\Correspond.exe
@@ -30,8 +17,8 @@
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\协调服务器\Correspond.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\协调服务器\Correspond.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:05.50
+已用时间 00:00:01.37

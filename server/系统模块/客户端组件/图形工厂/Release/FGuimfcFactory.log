@@ -1,9 +1,26 @@
-﻿生成启动时间为 2021/5/19 15:59:50。
-     1>项目“D:\WHDLM\server\系统模块\客户端组件\图形工厂\FGuimfcFactory.vcxproj”在节点 4 上(Build 个目标)。
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(355,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(369,5): error MSB8031: Building an MFC project for a non-Unicode character set is deprecated. You must change the project property to Unicode or download an additional library. See http://go.microsoft.com/fwlink/p/?LinkId=286820 for more information.
-     1>已完成生成项目“D:\WHDLM\server\系统模块\客户端组件\图形工厂\FGuimfcFactory.vcxproj”(Build 个目标)的操作 - 失败。
+﻿生成启动时间为 2021/5/26 15:09:06。
+     1>项目“D:\whdlm\server\系统模块\客户端组件\图形工厂\FGuimfcFactory.vcxproj”在节点 6 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\whdlm\server\系统模块\客户端组件\图形工厂\Release\图形工厂.dll) does not match the Linker's OutputFile property value (D:\whdlm\server\运行\Release\Ansi\FGuimfcFactory.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(图形工厂) does not match the Linker's OutputFile property value (FGuimfcFactory). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/FGuimfcFactory.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\FGuimfcFactory.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release\图形工厂.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/FGuimfcFactory.lib" /MACHINE:X86 /SAFESEH /DLL Release\FGuimfcFactory.res
+         Release\FGuimfcWindow.obj
+         Release\Stdafx.obj
+            正在创建库 ../../链接库/Ansi/FGuimfcFactory.lib 和对象 ../../链接库/Ansi/FGuimfcFactory.exp
+     1>FGuimfcWindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl CPaintManagerUI::AddCloseCallBack(void *,class IWindowCloseCallBack *)" (__imp_?AddCloseCallBack@CPaintManagerUI@@SAXPAXPAVIWindowCloseCallBack@@@Z)，该符号在函数 "public: virtual int __thiscall CFGuiDialog::DoModal(void)" (?DoModal@CFGuiDialog@@UAEHXZ) 中被引用
+     1>FGuimfcWindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl CPaintManagerUI::RemoveCloseCallBack(void *)" (__imp_?RemoveCloseCallBack@CPaintManagerUI@@SAXPAX@Z)，该符号在函数 "public: virtual int __thiscall CFGuiDialog::DoModal(void)" (?DoModal@CFGuiDialog@@UAEHXZ) 中被引用
+     1>FGuimfcWindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class CControlUI * __thiscall CDialogBuilder::Create(class STRINGorID,char const *,class IDialogBuilderCallback *,class CPaintManagerUI *,class CControlUI *,bool)" (__imp_?Create@CDialogBuilder@@QAEPAVCControlUI@@VSTRINGorID@@PBDPAVIDialogBuilderCallback@@PAVCPaintManagerUI@@PAV2@_N@Z)，该符号在函数 "public: int __thiscall CFGuiDialog::OnCreate(struct tagCREATESTRUCTA *)" (?OnCreate@CFGuiDialog@@QAEHPAUtagCREATESTRUCTA@@@Z) 中被引用
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CControlUI * __thiscall CContainerUI::FindControl(char const *)" (?FindControl@CContainerUI@@UAEPAVCControlUI@@PBD@Z)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CControlUI::GetScaleHeight(void)const " (?GetScaleHeight@CControlUI@@UBEHXZ)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct tagSIZE __thiscall CControlUI::GetScaleSize(void)" (?GetScaleSize@CControlUI@@UAE?AUtagSIZE@@XZ)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CControlUI::GetScaleWidth(void)const " (?GetScaleWidth@CControlUI@@UBEHXZ)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall CControlUI::IsKeyboardEnabled(void)const " (?IsKeyboardEnabled@CControlUI@@UBE_NXZ)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CControlUI::SetKeyboardEnabled(bool)" (?SetKeyboardEnabled@CControlUI@@UAEX_N@Z)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CControlUI::SetScaleHeight(int)" (?SetScaleHeight@CControlUI@@UAEXH@Z)
+     1>FGuimfcWindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CControlUI::SetScaleWidth(int)" (?SetScaleWidth@CControlUI@@UAEXH@Z)
+     1>../../../运行/Release/Ansi/FGuimfcFactory.dll : fatal error LNK1120: 11 个无法解析的外部命令
+     1>已完成生成项目“D:\whdlm\server\系统模块\客户端组件\图形工厂\FGuimfcFactory.vcxproj”(Build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:00.02
+已用时间 00:00:02.64

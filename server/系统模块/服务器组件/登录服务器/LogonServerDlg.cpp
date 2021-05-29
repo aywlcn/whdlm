@@ -48,6 +48,8 @@ BOOL CLogonServerDlg::OnInitDialog()
 //	m_FlashAccredit.SetServiceParameter(843);
 //	m_FlashAccredit.StartService();
 
+	OnBnClickedStartService();
+
 	return TRUE;
 }
 

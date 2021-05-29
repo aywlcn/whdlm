@@ -1,23 +1,6 @@
-﻿生成启动时间为 2020/11/2 5:04:33。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\GameService.vcxproj”在节点 3 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D GAME_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/游戏服务/Release_Unicode/GameService.pch" /Fo"../../../中间目录/游戏服务/Release_Unicode/" /Fd"../../../中间目录/游戏服务/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D GAME_SERVICE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/游戏服务/Release_Unicode/GameService.pch" /Fo"../../../中间目录/游戏服务/Release_Unicode/" /Fd"../../../中间目录/游戏服务/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AndroidUserItem.cpp AndroidUserManager.cpp GamePropertyManager.cpp GameService.cpp ServerUserManager.cpp UserTaskManager.cpp
-         AndroidUserItem.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         AndroidUserManager.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\AndroidUserItem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-     1>AndroidUserManager.cpp(199): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
-         GamePropertyManager.cpp
-         GameService.cpp
-         ServerUserManager.cpp
-         UserTaskManager.cpp
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/游戏服务/Release_Unicode/" /nologo /fo"../../../中间目录/游戏服务/Release_Unicode/GameService.res" GameService.rc 
-       Link:
+﻿生成启动时间为 2021/5/28 23:23:33。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\游戏服务\GameService.vcxproj”在节点 3 上(Build 个目标)。
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/GameService.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\GameService.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/游戏服务/Release_Unicode/GameService.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/GameService.lib" /MACHINE:X86 /SAFESEH /DLL "../../../中间目录/游戏服务/Release_Unicode/GameService.res"
          "../../../中间目录/游戏服务/Release_Unicode/AndroidUserItem.obj"
          "../../../中间目录/游戏服务/Release_Unicode/AndroidUserManager.obj"
@@ -27,7 +10,7 @@
          "../../../中间目录/游戏服务/Release_Unicode/Stdafx.obj"
          "../../../中间目录/游戏服务/Release_Unicode/UserTaskManager.obj"
             正在创建库 ../../链接库/Unicode/GameService.lib 和对象 ../../链接库/Unicode/GameService.exp
-         GameService.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\../../../运行/Release/Unicode/GameService.dll
+         GameService.vcxproj -> D:\whdlm\server\系统模块\服务器组件\游戏服务\../../../运行/Release/Unicode/GameService.dll
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode
          copy /y ..\..\..\运行\Release\Unicode\GameService.dll ..\..\..\发布组件\服务器组件\Release\Unicode\GameService.dll
@@ -35,8 +18,8 @@
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\GameService.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\游戏服务\GameService.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:07.36
+已用时间 00:00:01.67

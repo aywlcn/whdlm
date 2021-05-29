@@ -55,7 +55,7 @@ function MultiPlatform:getMachineId()
 		return g_var(PLATFORM[plat]).getMachineId( )
 	else
 		print("unknow platform ==> " .. plat)
-		return "A501164B366ECFC9E249163873094D51"
+		return yl.WIN32_DEVID;
 	end	
 end
 

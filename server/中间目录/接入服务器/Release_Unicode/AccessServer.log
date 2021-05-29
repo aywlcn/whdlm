@@ -1,55 +1,6 @@
-﻿生成启动时间为 2020/11/2 5:04:34。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”在节点 4 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/接入服务器/Release_Unicode/ClubServer.pch" /Fo"../../../中间目录/接入服务器/Release_Unicode/" /Fd"../../../中间目录/接入服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
-         Stdafx.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\接入服务器\..\..\全局定义\Log.h(76): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/接入服务器/Release_Unicode/ClubServer.pch" /Fo"../../../中间目录/接入服务器/Release_Unicode/" /Fd"../../../中间目录/接入服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AccessServer.cpp AccessServerDlg.cpp AttemperEngineSink.cpp DataBaseEngineSink.cpp GroupInfoManager.cpp InitParameter.cpp ServerListManager.cpp ServerUserManager.cpp ServiceUnits.cpp WordFilter.cpp
-         AccessServer.cpp
-         AccessServerDlg.cpp
-         AttemperEngineSink.cpp
-     1>AttemperEngineSink.cpp(129): warning C4018: “<”: 有符号/无符号不匹配
-     1>AttemperEngineSink.cpp(347): warning C4244: “初始化”: 从“double”转换到“LONGLONG”，可能丢失数据
-     1>AttemperEngineSink.cpp(348): warning C4244: “参数”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
-     1>AttemperEngineSink.cpp(351): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
-     1>AttemperEngineSink.cpp(3956): warning C4244: “参数”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>AttemperEngineSink.cpp(4002): warning C4244: “参数”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>AttemperEngineSink.cpp(5087): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
-     1>AttemperEngineSink.cpp(5655): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
-     1>AttemperEngineSink.cpp(5659): warning C4244: “初始化”: 从“double”转换到“LONGLONG”，可能丢失数据
-     1>AttemperEngineSink.cpp(5662): warning C4244: “参数”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
-     1>AttemperEngineSink.cpp(5856): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
-     1>AttemperEngineSink.cpp(6862): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
-     1>AttemperEngineSink.cpp(7122): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
-         DataBaseEngineSink.cpp
-     1>DataBaseEngineSink.cpp(2262): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
-     1>DataBaseEngineSink.cpp(2271): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
-     1>DataBaseEngineSink.cpp(2863): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
-     1>DataBaseEngineSink.cpp(2880): warning C4244: “初始化”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
-     1>DataBaseEngineSink.cpp(2970): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
-     1>DataBaseEngineSink.cpp(2987): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
-     1>DataBaseEngineSink.cpp(3849): warning C4244: “+=”: 从“LONGLONG”转换到“INT”，可能丢失数据
-         GroupInfoManager.cpp
-     1>GroupInfoManager.cpp(148): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
-     1>GroupInfoManager.cpp(155): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
-     1>GroupInfoManager.cpp(201): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
-         InitParameter.cpp
-         ServerListManager.cpp
-         ServerUserManager.cpp
-         ServiceUnits.cpp
-         WordFilter.cpp
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/接入服务器/Release_Unicode/" /nologo /fo"../../../中间目录/接入服务器/Release_Unicode/AccessServer.res" AccessServer.rc 
-       Link:
+﻿生成启动时间为 2021/5/28 23:23:34。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/ClubServer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Unicode/ClubServer.pdb" /MAP:"ClubServer.map" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Release/Unicode/ClubServer.lib" /MACHINE:X86 /SAFESEH "../../../中间目录/接入服务器/Release_Unicode/AccessServer.res"
          "../../../中间目录/接入服务器/Release_Unicode/AccessServer.obj"
          "../../../中间目录/接入服务器/Release_Unicode/AccessServerDlg.obj"
@@ -62,15 +13,15 @@
          "../../../中间目录/接入服务器/Release_Unicode/ServiceUnits.obj"
          "../../../中间目录/接入服务器/Release_Unicode/Stdafx.obj"
          "../../../中间目录/接入服务器/Release_Unicode/WordFilter.obj"
-         AccessServer.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\接入服务器\../../../运行/Release/Unicode/ClubServer.exe
+         AccessServer.vcxproj -> D:\whdlm\server\系统模块\服务器组件\接入服务器\../../../运行/Release/Unicode/ClubServer.exe
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode 
          copy /y ..\..\..\运行\Release\Unicode\ClubServer.exe ..\..\..\发布组件\服务器组件\Release\Unicode\ClubServer.exe
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\接入服务器\AccessServer.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:17.99
+已用时间 00:00:01.13

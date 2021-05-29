@@ -334,6 +334,8 @@ void CSocketService::OnBlockRun()
 
 						if (bReadedInfo)		//包头正确解析的情况下
 						{
+							printf("Packet Header is OK\n");
+
 							//数据解密
 							CCipher::decryptBuffer(&reciveBuffer[nCurMsgLen], nDstLen);
 
@@ -342,6 +344,9 @@ void CSocketService::OnBlockRun()
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 							__android_log_print(ANDROID_LOG_DEBUG, "cocos2d-x debug info", "wMainCmdID=%d,,,,wSubCmdID=%d", wMainCmdID, wSubCmdID);
 #endif
+
+							printf("wMainCmdID=%d,,,,wSubCmdID=%d\n", wMainCmdID, wSubCmdID);
+
 							//主子命令判断
 							if (wMainCmdID || wSubCmdID != SUB_KN_DETECT_SOCKET)
 							{

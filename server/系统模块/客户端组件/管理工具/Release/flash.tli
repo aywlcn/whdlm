@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.30501.0 (f689c885).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.40629.0 (aff9ed0f).
 //
-// d:\baidunetdiskdownload\新版大联盟\server\系统模块\客户端组件\管理工具\release\flash.tli
+// d:\whdlm\server\系统模块\客户端组件\管理工具\release\flash.tli
 //
 // Wrapper implementations for Win32 type library Flash.ocx
-// compiler-generated file created 11/02/20 at 04:24:54 - DO NOT EDIT!
+// compiler-generated file created 05/26/21 at 15:08:34 - DO NOT EDIT!
 
 #pragma once
 

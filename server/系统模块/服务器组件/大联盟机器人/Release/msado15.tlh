@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.30501.0 (7aa5bba4).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.40629.0 (071a515a).
 //
-// d:\baidunetdiskdownload\新版大联盟\server\系统模块\服务器组件\大联盟机器人\release\msado15.tlh
+// d:\whdlm\server\系统模块\服务器组件\大联盟机器人\release\msado15.tlh
 //
 // C++ source equivalent of Win32 type library MSADO15.DLL
-// compiler-generated file created 11/02/20 at 04:23:41 - DO NOT EDIT!
+// compiler-generated file created 05/26/21 at 15:08:33 - DO NOT EDIT!
 
 #pragma once
 #pragma pack(push, 8)
@@ -3133,7 +3133,7 @@ _Record : _ADO
 // Wrapper method implementations
 //
 
-#include "d:\baidunetdiskdownload\新版大联盟\server\系统模块\服务器组件\大联盟机器人\release\msado15.tli"
+#include "d:\whdlm\server\系统模块\服务器组件\大联盟机器人\release\msado15.tli"
 
 } // namespace ADOCG
 

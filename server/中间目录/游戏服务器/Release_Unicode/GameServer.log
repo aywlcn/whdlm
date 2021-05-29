@@ -1,43 +1,6 @@
-﻿生成启动时间为 2020/11/2 5:04:50。
-     1>项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”在节点 3 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../../../中间目录/游戏服务器/Release_Unicode/GameServer.pch" /Fo"../../../中间目录/游戏服务器/Release_Unicode/" /Fd"../../../中间目录/游戏服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" Stdafx.cpp
-         Stdafx.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务\androiduseritem.h(235): warning C4244: “return”: 从“WORD”转换到“BYTE”，可能丢失数据
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../../中间目录/游戏服务器/Release_Unicode/" /Fd"../../../中间目录/游戏服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" "..\..\全局定义\Log.cpp"
-         Log.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../../../中间目录/游戏服务器/Release_Unicode/GameServer.pch" /Fo"../../../中间目录/游戏服务器/Release_Unicode/" /Fd"../../../中间目录/游戏服务器/Release_Unicode/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_WARNINGS" AttemperEngineSink.cpp DataBaseEngineSink.cpp DBCorrespondManager.cpp DistributeManager.cpp GamePropertyListManager.cpp GameServer.cpp GameServerDlg.cpp InitParameter.cpp SensitiveWordsFilter.cpp ServerListManager.cpp ServiceUnits.cpp TableFrame.cpp
-         AttemperEngineSink.cpp
-         DataBaseEngineSink.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\databaseenginesink.cpp(3172): warning C4996: '_swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\databaseenginesink.cpp(3195): warning C4996: '_swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\databaseenginesink.cpp(3242): warning C4996: '_swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
-         DBCorrespondManager.cpp
-         DistributeManager.cpp
-         GamePropertyListManager.cpp
-         GameServer.cpp
-         GameServerDlg.cpp
-         InitParameter.cpp
-         SensitiveWordsFilter.cpp
-         ServerListManager.cpp
-         ServiceUnits.cpp
-         TableFrame.cpp
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(1060): warning C4018: “>=”: 有符号/无符号不匹配
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(1064): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(1076): warning C4018: “>=”: 有符号/无符号不匹配
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(1080): warning C4018: “<”: 有符号/无符号不匹配
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(2838): warning C4018: “>=”: 有符号/无符号不匹配
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(2844): warning C4018: “>=”: 有符号/无符号不匹配
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(6169): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(6217): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
-     1>d:\baidunetdiskdownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\tableframe.cpp(7148): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
-         正在生成代码...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /I"../../../中间目录/游戏服务器/Release_Unicode/" /nologo /fo"../../../中间目录/游戏服务器/Release_Unicode/GameServer.res" GameServer.rc 
-       Link:
+﻿生成启动时间为 2021/5/28 23:23:36。
+     1>项目“D:\whdlm\server\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/GameServer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../中间目录/游戏服务器/Release_Unicode/GameServer.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Release/Unicode/GameServer.lib" /MACHINE:X86 /SAFESEH "../../../中间目录/游戏服务器/Release_Unicode/GameServer.res"
          "../../../中间目录/游戏服务器/Release_Unicode/Log.obj"
          "../../../中间目录/游戏服务器/Release_Unicode/AttemperEngineSink.obj"
@@ -54,7 +17,7 @@
          "../../../中间目录/游戏服务器/Release_Unicode/Stdafx.obj"
          "../../../中间目录/游戏服务器/Release_Unicode/TableFrame.obj"
      1>Log.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
-         GameServer.vcxproj -> D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\../../../运行/Release/Unicode/GameServer.exe
+         GameServer.vcxproj -> D:\whdlm\server\系统模块\服务器组件\游戏服务器\../../../运行/Release/Unicode/GameServer.exe
        PostBuildEvent:
          mkdir ..\..\..\发布组件\服务器组件\Release\Unicode
          copy /y ..\..\..\运行\Release\Unicode\GameServer.exe ..\..\..\发布组件\服务器组件\Release\Unicode\GameServer.exe
@@ -62,8 +25,8 @@
          :VCEnd
          子目录或文件 ..\..\..\发布组件\服务器组件\Release\Unicode 已经存在。
          已复制         1 个文件。
-     1>已完成生成项目“D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\whdlm\server\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:06.27
+已用时间 00:00:00.78

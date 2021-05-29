@@ -65,6 +65,9 @@ yl.WIN_SRC_SUFFIX                       = ""
 -- 判断条件
 yl.ENABLE_VALUE                         = 0
 
+yl.WIN32_DEVID 							= 'A501164B366ECFC9E249163873094D51';
+yl.WIN32_DEVID 							= '111111';
+
 -- 消息类型
 yl.SYSTEM_MSG                           = 1     -- 系统消息
 yl.TRUMPET_MSG                          = 2     -- 喇叭消息

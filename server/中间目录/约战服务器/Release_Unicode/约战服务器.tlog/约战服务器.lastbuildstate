@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
-Release_Unicode|Win32|D:\BaiduNetdiskDownload\藏宝库新大联盟\server\系统模块\|
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120_xp:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Release_Unicode|Win32|D:\whdlm\server\系统模块\|
