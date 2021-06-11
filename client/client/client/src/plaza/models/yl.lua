@@ -21,10 +21,10 @@ yl.FRIENDPORT                           	= 6802 --@friend_port -- 演示 好友�
 yl.CLUBPORT                             	= 6806 --@club_port --演示
 
 table.insert(yl.SERVER_LIST, "156.240.109.101") --@login_ip -- 演示 登陆地址
-yl.HTTP_URL                             	= "http://tankhot.com:81" --@http_url --演示 http请求链接地址
-yl.IMAGE_URL                            	= "http://tankhot.com:8092/Upload" --@image_url --演示 图片服务器
+yl.HTTP_URL                             	= "http://site.tankhot.com" --@http_url --演示 http请求链接地址
+yl.IMAGE_URL                            	= "http://upload.tankhot.com/Upload" --@image_url --演示 图片服务器
 
-yl.HTTP_URL_DOWNLOAD                = "http://tankhot.com:81" --@http_url --演示 http请求链接地址
+yl.HTTP_URL_DOWNLOAD                = "http://site.tankhot.com" --@http_url --演示 http请求链接地址
 --210
 -- table.insert(yl.SERVER_LIST, "172.16.3.210") --@login_ip -- 演示 登陆地址
 -- -- table.insert(yl.SERVER_LIST, "172.16.0.73") --@login_ip -- 演示 登陆地址

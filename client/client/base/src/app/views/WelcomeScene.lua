@@ -10,7 +10,7 @@ local ClientUpdate = appdf.req("base.src.app.controllers.ClientUpdate")
 local QueryDialog = appdf.req("base.src.app.views.layer.other.QueryDialog")
 local ClientConfig = appdf.req(appdf.BASE_SRC .."app.models.ClientConfig")
 
-local URL_REQUEST = "http://tankhot.com:81" --@http_url
+local URL_REQUEST = "http://site.tankhot.com" --@http_url
 
 local EXTRA_CMD_KEY = "extra_command_version"
 --全局toast函数(ios/android端调用)
